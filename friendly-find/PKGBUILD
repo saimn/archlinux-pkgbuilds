@@ -1,6 +1,6 @@
 # Maintainer: Simon Conseil <contact+aur at saimon dot org>
 pkgname=friendly-find
-pkgver=0.3.0
+pkgver=0.3.1
 pkgrel=1
 pkgdesc="A friendlier find (ffind)."
 arch=('any')
@@ -8,7 +8,7 @@ url="https://github.com/sjl/friendly-find"
 license=('GPL3')
 depends=('python2')
 source=("https://github.com/sjl/$pkgname/archive/v$pkgver.tar.gz")
-md5sums=('a3ab9caa12ee5600024c3324a0482ca6')
+md5sums=('bbcb977b00322c465f4080c5a758278f')
 
 package() {
   cd "$srcdir/$pkgname-$pkgver"
