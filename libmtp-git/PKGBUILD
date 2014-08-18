@@ -4,9 +4,10 @@
 # Contributor: damir <damir@archlinux.org>
 # Contributor: Kevin Edmonds <edmondskevin@hotmail.com>
 # Contributor: John Karahalis <john.karahalis@gmail.com>
+# Maintainer: Simon Conseil <contact+aur at saimon dot org>
 
 pkgname=libmtp-git
-pkgver=1.1.6.r58.gf76438e
+pkgver=1.1.6.r62.gd4d3f0e
 pkgrel=1
 pkgdesc="Library implementation of the Media Transfer Protocol"
 arch=("i686" "x86_64")
