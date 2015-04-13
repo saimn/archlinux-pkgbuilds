@@ -1,0 +1,32 @@
+# Maintainer: Mr_Men <tetcheve at gmail dot com>
+# Contributor: Hasan Gormus aka hsngrms <hsngrms at yandex dot com>
+# Contributor: uwinkelvos <uwinkelvos at gmx dot de>
+pkgname=nvidiabl
+pkgver=0.87
+pkgrel=3
+pkgdesc="Driver to adjust display backlight on modern mobile NVidia graphics adapters."
+arch=('x86_64' 'i686')
+url="https://github.com/guillaumezin/nvidiabl"
+license=('GPL')
+depends=()
+makedepends=('linux-headers')
+optdepends=('nvidiablctl: adjust backlight easily')
+conflicts=(nvidia-bl)
+install=nvidiabl.install
+source=(https://github.com/guillaumezin/nvidiabl/raw/master/install/tarball/$pkgname-$pkgver-source-only.dkms.tar.gz)
+md5sums=('3024170a5e9f678899cd10eb5eb6aab6')
+
+
+build() {
+  cd "$srcdir/dkms_source_tree/"
+  echo 'NVIDIABL_DECLARE_LAPTOP_MODEL("Apple Inc.", "MacBookAir11,3", PCI_ANY_ID, NVIDIABL_SC_AUTO, NVIDIABL_AUTO, NVIDIABL_AUTO, NVIDIABL_AUTO),' >> nvidiabl-laptops.h
+  make
+}
+
+package() {
+  cd "$srcdir/dkms_source_tree/"
+  _extramodules="extramodules-$(uname -r | cut -f-2 -d'.')-$(uname -r|sed -e 's/.*-//g')"
+  MODPATH="${pkgdir}/usr/lib/modules/${_extramodules}/"
+  install -d $MODPATH
+  install -m 644 -c nvidiabl.ko $MODPATH
+}
