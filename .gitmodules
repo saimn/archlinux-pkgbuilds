@@ -1,54 +1,54 @@
 [submodule "aladin"]
 	path = aladin
-	url = ssh+git://aur@aur4.archlinux.org:22/aladin.git/
+	url = ssh://aur@aur.archlinux.org/aladin.git/
 [submodule "checkoutmanager"]
 	path = checkoutmanager
-	url = ssh+git://aur@aur4.archlinux.org:22/checkoutmanager.git/
+	url = ssh://aur@aur.archlinux.org/checkoutmanager.git/
 [submodule "friendly-find"]
 	path = friendly-find
-	url = ssh+git://aur@aur4.archlinux.org:22/friendly-find.git/
+	url = ssh://aur@aur.archlinux.org/friendly-find.git/
 [submodule "jsctags-tern-git"]
 	path = jsctags-tern-git
-	url = ssh+git://aur@aur4.archlinux.org:22/jsctags-tern-git.git/
+	url = ssh://aur@aur.archlinux.org/jsctags-tern-git.git/
 [submodule "jslint"]
 	path = jslint
-	url = ssh+git://aur@aur4.archlinux.org:22/jslint.git/
+	url = ssh://aur@aur.archlinux.org/jslint.git/
 [submodule "libmtp-git"]
 	path = libmtp-git
-	url = ssh+git://aur@aur4.archlinux.org:22/libmtp-git.git/
+	url = ssh://aur@aur.archlinux.org/libmtp-git.git/
 [submodule "peat"]
 	path = peat
-	url = ssh+git://aur@aur4.archlinux.org:22/peat.git/
+	url = ssh://aur@aur.archlinux.org/peat.git/
 [submodule "pip-tools"]
 	path = pip-tools
-	url = ssh+git://aur@aur4.archlinux.org:22/pip-tools.git/
+	url = ssh://aur@aur.archlinux.org/pip-tools.git/
 [submodule "pypi-cli"]
 	path = pypi-cli
-	url = ssh+git://aur@aur4.archlinux.org:22/pypi-cli.git/
+	url = ssh://aur@aur.archlinux.org/pypi-cli.git/
 [submodule "python2-epc"]
 	path = python2-epc
-	url = ssh+git://aur@aur4.archlinux.org:22/python2-epc.git/
+	url = ssh://aur@aur.archlinux.org/python2-epc.git/
 [submodule "python2-pilkit"]
 	path = python2-pilkit
-	url = ssh+git://aur@aur4.archlinux.org:22/python2-pilkit.git/
+	url = ssh://aur@aur.archlinux.org/python2-pilkit.git/
 [submodule "python2-sexpdata"]
 	path = python2-sexpdata
-	url = ssh+git://aur@aur4.archlinux.org:22/python2-sexpdata.git/
+	url = ssh://aur@aur.archlinux.org/python2-sexpdata.git/
 [submodule "python-baker"]
 	path = python-baker
-	url = ssh+git://aur@aur4.archlinux.org:22/python-baker.git/
+	url = ssh://aur@aur.archlinux.org/python-baker.git/
 [submodule "python-pilkit"]
 	path = python-pilkit
-	url = ssh+git://aur@aur4.archlinux.org:22/python-pilkit.git/
+	url = ssh://aur@aur.archlinux.org/python-pilkit.git/
 [submodule "python-radon"]
 	path = python-radon
-	url = ssh+git://aur@aur4.archlinux.org:22/python-radon.git/
+	url = ssh://aur@aur.archlinux.org/python-radon.git/
 [submodule "sigal"]
 	path = sigal
-	url = ssh+git://aur@aur4.archlinux.org:22/sigal.git/
+	url = ssh://aur@aur.archlinux.org/sigal.git/
 [submodule "stilts"]
 	path = stilts
-	url = ssh+git://aur@aur4.archlinux.org:22/stilts.git/
+	url = ssh://aur@aur.archlinux.org/stilts.git/
 [submodule "topcat"]
 	path = topcat
-	url = ssh+git://aur@aur4.archlinux.org:22/topcat.git/
+	url = ssh://aur@aur.archlinux.org/topcat.git/
