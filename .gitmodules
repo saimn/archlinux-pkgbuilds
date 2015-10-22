@@ -1,54 +1,72 @@
 [submodule "aladin"]
 	path = aladin
 	url = ssh://aur@aur.archlinux.org/aladin.git/
+    ignore = dirty
 [submodule "checkoutmanager"]
 	path = checkoutmanager
 	url = ssh://aur@aur.archlinux.org/checkoutmanager.git/
+    ignore = dirty
 [submodule "friendly-find"]
 	path = friendly-find
 	url = ssh://aur@aur.archlinux.org/friendly-find.git/
+    ignore = dirty
 [submodule "jsctags-tern-git"]
 	path = jsctags-tern-git
 	url = ssh://aur@aur.archlinux.org/jsctags-tern-git.git/
+    ignore = dirty
 [submodule "jslint"]
 	path = jslint
 	url = ssh://aur@aur.archlinux.org/jslint.git/
+    ignore = dirty
 [submodule "libmtp-git"]
 	path = libmtp-git
 	url = ssh://aur@aur.archlinux.org/libmtp-git.git/
+    ignore = dirty
 [submodule "peat"]
 	path = peat
 	url = ssh://aur@aur.archlinux.org/peat.git/
+    ignore = dirty
 [submodule "pip-tools"]
 	path = pip-tools
 	url = ssh://aur@aur.archlinux.org/pip-tools.git/
+    ignore = dirty
 [submodule "pypi-cli"]
 	path = pypi-cli
 	url = ssh://aur@aur.archlinux.org/pypi-cli.git/
+    ignore = dirty
 [submodule "python2-epc"]
 	path = python2-epc
 	url = ssh://aur@aur.archlinux.org/python2-epc.git/
+    ignore = dirty
 [submodule "python2-pilkit"]
 	path = python2-pilkit
 	url = ssh://aur@aur.archlinux.org/python2-pilkit.git/
+    ignore = dirty
 [submodule "python2-sexpdata"]
 	path = python2-sexpdata
 	url = ssh://aur@aur.archlinux.org/python2-sexpdata.git/
+    ignore = dirty
 [submodule "python-baker"]
 	path = python-baker
 	url = ssh://aur@aur.archlinux.org/python-baker.git/
+    ignore = dirty
 [submodule "python-pilkit"]
 	path = python-pilkit
 	url = ssh://aur@aur.archlinux.org/python-pilkit.git/
+    ignore = dirty
 [submodule "python-radon"]
 	path = python-radon
 	url = ssh://aur@aur.archlinux.org/python-radon.git/
+    ignore = dirty
 [submodule "sigal"]
 	path = sigal
 	url = ssh://aur@aur.archlinux.org/sigal.git/
+    ignore = dirty
 [submodule "stilts"]
 	path = stilts
 	url = ssh://aur@aur.archlinux.org/stilts.git/
+    ignore = dirty
 [submodule "topcat"]
 	path = topcat
 	url = ssh://aur@aur.archlinux.org/topcat.git/
+    ignore = dirty
