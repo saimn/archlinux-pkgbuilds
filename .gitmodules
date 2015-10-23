@@ -46,17 +46,9 @@
 	path = python2-sexpdata
 	url = ssh://aur@aur.archlinux.org/python2-sexpdata.git/
     ignore = dirty
-[submodule "python-baker"]
-	path = python-baker
-	url = ssh://aur@aur.archlinux.org/python-baker.git/
-    ignore = dirty
 [submodule "python-pilkit"]
 	path = python-pilkit
 	url = ssh://aur@aur.archlinux.org/python-pilkit.git/
-    ignore = dirty
-[submodule "python-radon"]
-	path = python-radon
-	url = ssh://aur@aur.archlinux.org/python-radon.git/
     ignore = dirty
 [submodule "sigal"]
 	path = sigal
