@@ -62,3 +62,6 @@
 	path = topcat
 	url = ssh://aur@aur.archlinux.org/topcat.git/
     ignore = dirty
+[submodule "glnemo2"]
+	path = glnemo2
+	url = ssh://aur@aur.archlinux.org/glnemo2.git
