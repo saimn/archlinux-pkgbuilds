@@ -14,10 +14,6 @@
 	path = jsctags-tern-git
 	url = ssh://aur@aur.archlinux.org/jsctags-tern-git.git/
     ignore = dirty
-[submodule "jslint"]
-	path = jslint
-	url = ssh://aur@aur.archlinux.org/jslint.git/
-    ignore = dirty
 [submodule "libmtp-git"]
 	path = libmtp-git
 	url = ssh://aur@aur.archlinux.org/libmtp-git.git/
