@@ -1,0 +1,32 @@
+# $Id: PKGBUILD 282787 2016-12-03 09:41:22Z arojas $
+# Maintainer:
+
+pkgname=cpl
+pkgver=7.0
+pkgrel=1
+pkgdesc="Software toolkit to develop astronomical data-reduction tasks"
+arch=("i686" "x86_64")
+url="http://www.eso.org/sci/software/cpl/"
+license=('GPL2')
+depends=('cfitsio' 'wcslib' 'fftw')
+source=("ftp://ftp.eso.org/pub/dfs/pipelines/libraries/${pkgname}/${pkgname}-${pkgver}.tar.gz")
+sha512sums=('d79eb37a5f29740edc1736815bde6ec31bc4e1f648552cad48ab70626170ff6195d226de0c198e0287dee3bfe815ee7302b6882395d710c534fabe0c5353aaa6')
+
+build() {
+  cd ${pkgname}-${pkgver}
+  sed -i 's/libcfitsio.a/libcfitsio.so/' configure
+  sed -i 's/libcfitsio.a/libcfitsio.so/' m4/cpl.m4
+  sed -i 's/libwcs.a/libwcs.so/' configure
+  sed -i 's/libwcs.a/libwcs.so/' m4/cpl.m4
+  sed -i 's/libfftw3.a/libfftw3.so/' configure
+  sed -i 's/libfftw3.a/libfftw3.so/' m4/cpl.m4
+  sed -i 's/libfftw3f.a/libfftw3f.so/' configure
+  sed -i 's/libfftw3f.a/libfftw3f.so/' m4/cpl.m4
+  ./configure --prefix=/usr --with-cfitsio=/usr --with-wcs=/usr --with-fftw=/usr
+  make
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="$pkgdir" install
+}
