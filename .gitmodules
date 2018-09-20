@@ -26,14 +26,6 @@
 	path = pypi-cli
 	url = ssh://aur@aur.archlinux.org/pypi-cli.git/
     ignore = dirty
-[submodule "python-pilkit"]
-	path = python-pilkit
-	url = ssh://aur@aur.archlinux.org/python-pilkit.git/
-    ignore = dirty
-[submodule "sigal"]
-	path = sigal
-	url = ssh://aur@aur.archlinux.org/sigal.git/
-    ignore = dirty
 [submodule "stilts"]
 	path = stilts
 	url = ssh://aur@aur.archlinux.org/stilts.git/
