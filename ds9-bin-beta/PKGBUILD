@@ -2,7 +2,7 @@
 
 pkgname=ds9-bin-beta
 _pkgname=ds9
-pkgver=8.0rc6
+pkgver=8.0
 pkgrel=1
 pkgdesc="SAOImage DS9: Astronomical Data Visualization Application"
 url="http://hea-www.harvard.edu/RD/ds9/"
@@ -18,7 +18,7 @@ backup=()
 source=(http://ds9.si.edu/download/ubuntu17/${_pkgname}.ubuntu17.${pkgver}.tar.gz
         ds9.desktop
         ds9.png)
-md5sums=('947723f39cea80d0d7dcc2372b5b48a5'
+md5sums=('af74024bf5d0cba8f41439cdc08d81b1'
          'f1738e4ec665ae9afd1b65b86e6a07f1'
          '9297d5738f5f462831075c483dc785d5')
 
