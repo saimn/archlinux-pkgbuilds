@@ -2,30 +2,6 @@
 	path = aladin
 	url = ssh://aur@aur.archlinux.org/aladin.git/
     ignore = dirty
-[submodule "checkoutmanager"]
-	path = checkoutmanager
-	url = ssh://aur@aur.archlinux.org/checkoutmanager.git/
-    ignore = dirty
-[submodule "friendly-find"]
-	path = friendly-find
-	url = ssh://aur@aur.archlinux.org/friendly-find.git/
-    ignore = dirty
-[submodule "jsctags-tern-git"]
-	path = jsctags-tern-git
-	url = ssh://aur@aur.archlinux.org/jsctags-tern-git.git/
-    ignore = dirty
-[submodule "libmtp-git"]
-	path = libmtp-git
-	url = ssh://aur@aur.archlinux.org/libmtp-git.git/
-    ignore = dirty
-[submodule "peat"]
-	path = peat
-	url = ssh://aur@aur.archlinux.org/peat.git/
-    ignore = dirty
-[submodule "pypi-cli"]
-	path = pypi-cli
-	url = ssh://aur@aur.archlinux.org/pypi-cli.git/
-    ignore = dirty
 [submodule "stilts"]
 	path = stilts
 	url = ssh://aur@aur.archlinux.org/stilts.git/
